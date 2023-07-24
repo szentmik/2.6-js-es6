@@ -1,0 +1,15 @@
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+div {
+    padding:50px;
+    border:1px solid black;
+    width: 20rem;
+    height: 20rem;
+}
