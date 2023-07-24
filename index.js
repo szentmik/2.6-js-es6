@@ -52,7 +52,7 @@ const colorChange = () => {
 
 	setInterval(() => {
 		// console.log(colours[x].color);
-		square.style.backgroundColor = colours[x].color;
+		
 		if (checkbox.checked) {
 			// console.log("checked");
 			x = x;
@@ -63,7 +63,7 @@ const colorChange = () => {
 		if (x === colours.length) {
 			x = 0;
 		}
-
+		square.style.backgroundColor = colours[x].color;
 	}, 1000);
 };
 
